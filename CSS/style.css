@@ -38,7 +38,7 @@ div,
 h3,
 p {
   text-align: left;
-  color: black;
+  color: rgb(10, 29, 133);
 }
 
 /* Header/Blog Title */
@@ -51,15 +51,30 @@ p {
 .header h1 {
   font-size: 50px;
 }
+.contact-title p {
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-image {
+  width: 50%;
+  height: auto;
+}
+.contact-form {
+  text-align: center;
+  margin: 0 auto;
+}
 
 /* Style the top navigation bar */
-.topnav {
+.menuBar {
   overflow: hidden;
   background-color: #333;
 }
 
 /* Style the topnav links */
-.topnav a {
+.menuBar a {
   float: left;
   display: block;
   text-align: center;
@@ -68,8 +83,8 @@ p {
 }
 
 /* Change color on hover */
-.topnav a:hover {
-  color: black;
+.menuBar a:hover {
+  color: green;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -125,7 +140,7 @@ p {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-  .topnav a {
+  .menuBar a {
     float: none;
     width: 100%;
   }
@@ -133,12 +148,12 @@ p {
 
 footer div {
   text-align: center;
-  background: linear-gradient(100deg, rgb(0, 0, 0), rgb(71, 255, 132));
+  background: linear-gradient(100deg, rgb(0, 0, 0), rgb(233, 240, 236));
 }
 
 footer div p,
 ul {
   text-align: left;
   background: linear-gradient(100deg, rgb(0, 0, 0), green);
-  color: green;
+  color: white;
 }
