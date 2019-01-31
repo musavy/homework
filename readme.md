@@ -4,7 +4,7 @@ this to learn git, github, html and css by building a portfolio
 
 # Demo
 
-[myproject](https://github.com/musavy/homework)
+[Myhomework](https://github.com/musavy/homework)
 
 # Technologies
 
