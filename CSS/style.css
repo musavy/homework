@@ -34,6 +34,12 @@ div.card {
   text-align: center;
   color: green;
 }
+div,
+h3,
+p {
+  text-align: left;
+  color: black;
+}
 
 /* Header/Blog Title */
 .header {
@@ -56,7 +62,6 @@ div.card {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -64,7 +69,6 @@ div.card {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
   color: black;
 }
 
@@ -79,20 +83,18 @@ div.card {
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
   padding-left: 20px;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: lightseagreen;
   padding: 20px;
   margin-top: 20px;
 }
@@ -127,4 +129,16 @@ div.card {
     float: none;
     width: 100%;
   }
+}
+
+footer div {
+  text-align: center;
+  background: linear-gradient(100deg, rgb(0, 0, 0), rgb(71, 255, 132));
+}
+
+footer div p,
+ul {
+  text-align: left;
+  background: linear-gradient(100deg, rgb(0, 0, 0), green);
+  color: green;
 }
