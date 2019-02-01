@@ -1,6 +1,6 @@
 # Portfolio
 
-this to learn git, github, html and css by building a portfolio
+This is my first project
 
 # Demo
 
