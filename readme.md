@@ -4,7 +4,7 @@ This is my first project
 
 # Demo
 
-[Myhomework](https://musavy.github.io/homework/)
+[Homework](https://musavy.github.io/homework/)
 
 # Technologies
 
